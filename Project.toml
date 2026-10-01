@@ -1,0 +1,30 @@
+name = "MagBerry"
+uuid = "615822b0-8f92-498c-8f92-581333792612"
+authors = ["Xiaonong Shen, Wei Ren"]
+version = "1.4.0"
+
+[deps]
+CairoMakie = "13f3f980-e62b-5c42-98c6-ff1f3baf88f0"
+CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+DelimitedFiles = "8bb1440f-4735-579b-a4ab-409b98df4dab"
+FFTW = "7a1cc6ca-52ef-59f5-83cd-3a7055c09341"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+Makie = "ee78f7c6-11fb-53f2-987a-cfe4a2b5a57a"
+PolyLog = "85e3b03c-9856-11eb-0374-4dc1f8670e7f"
+ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
+Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
+SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
+Spglib = "f761d5c5-86db-4880-b97f-9680a7cccfb5"
+StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
+Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
+Sunny = "2b4a2ac8-8f8b-43e8-abf4-3cb0c45e8736"
+
+[compat]
+julia = "1.10"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]

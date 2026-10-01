@@ -1,0 +1,36 @@
+Magnetic symmetry operations
+Parent crystal: 'P 4_2/m n m' (136)
+Supercell dims: (1, 1, 1)
+Number of magnetic operations: 8
+Number of unitary operations: 4
+Number of antiunitary operations: 4
+
+Operations:
+  x,y,z,+1
+  -x,-y,-z,+1
+  -x,-y,z,-1
+  x,y,-z,-1
+  x+1/2,-y+1/2,-z+1/2,+1
+  -x+1/2,y+1/2,z+1/2,+1
+  -x+1/2,y+1/2,-z+1/2,-1
+  x+1/2,-y+1/2,z+1/2,-1
+
+Independent tensor elements: κ_yz
+Zero tensor elements: κ_xx, κ_xy, κ_xz, κ_yx, κ_yy, κ_zx, κ_zz
+
+Component relations:
+  κ_zx = 0
+  κ_xy = 0
+
+Tensor relations:
+  κ_yz = κ_yz
+  κ_zy = -(κ_yz)
+  κ_zx = 0
+  κ_xz = 0
+  κ_xy = 0
+  κ_yx = 0
+
+Symbolic tensor:
+0	0	0
+0	0	κ_yz
+0	-(κ_yz)	0
